@@ -1,0 +1,23 @@
+{
+    "name": "bsadjetey/notify",
+    "description": "Flexible flash notifications for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bernard Adjetey",
+            "email": "bsadjetey@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Codecourse\\Notify\\": "src/"
+        },
+        "files": [
+            "src/Codecourse/Notify/functions.php"
+        ]
+    },
+    "minimum-stability": "stable"
+}
